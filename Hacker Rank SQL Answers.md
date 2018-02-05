@@ -105,14 +105,14 @@ FROM CITY
 WHERE DISTRICT = 'CALIFORNIA'
 ```
 
-[Average Population](https://www.hackerrank.com/challenges/average-population)
+* [Average Population](https://www.hackerrank.com/challenges/average-population)
 
 ```sql
 SELECT ROUND(AVG(POPULATION),0)
 FROM CITY 
 ```
 
-*[Japan Population](https://www.hackerrank.com/challenges/japan-population)
+* [Japan Population](https://www.hackerrank.com/challenges/japan-population)
 
 ```sql
 SELECT SUM(POPULATION)
@@ -159,11 +159,10 @@ WHERE LAT_N < 137.2345 AND CASE WHEN LAT_N = MAX(LAT_N)
 ```
 
 
--- AGGREGATION CHALLENGES
---https://www.hackerrank.com/challenges/the-blunder
+## [AGGREGATION CHALLENGES](https://www.hackerrank.com/challenges/the-blunder)
 
 
-*[Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees)
+* [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees)
 
 ```sql
 SELECT MAX(months*salary) AS earnings, COUNT(earnings)
