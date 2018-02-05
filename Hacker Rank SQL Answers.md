@@ -1,12 +1,12 @@
 
-*[Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query)
+* [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query)
 ```sql
 SELECT *
 FROM CITY
 WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA'
 ```
 
-*[Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2)
+* [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2)
 
 ```sql
 SELECT NAME
@@ -53,7 +53,7 @@ FROM STATION
 WHERE LOWER(LEFT(CITY,1)) NOT IN ('a', 'e', 'i', 'o', 'u');
 ```
 
-*[Problem: Weather Observation Station 10](https://www.hackerrank.com/challenges/weather-observation-station-10)
+* [Problem: Weather Observation Station 10](https://www.hackerrank.com/challenges/weather-observation-station-10)
 
 ```sql
 SELECT DISTINCT CITY 
@@ -70,7 +70,7 @@ WHERE LOWER(RIGHT(CITY,1)) NOT IN ('a', 'e', 'i', 'o', 'u') OR
 LOWER(LEFT(CITY,1)) NOT IN ('a', 'e', 'i', 'o', 'u');
 ```
 
-*[Problem: Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12)
+* [Problem: Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12)
 
 ```sql
 SELECT DISTINCT CITY 
